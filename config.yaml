@@ -1,0 +1,24 @@
+# Example of a training configuration file: custom_data.yaml
+train: G:/SUMIT/experment/modelv1/train
+val: G:/SUMIT/experment/modelv1/valid
+
+# Number of classes in your dataset
+nc: 11
+
+# Class names
+names: [
+    "black_gram_healthy",
+    "black_gram_leaf_spot",
+    "dolicos_bean_cercospora_leaf_spot",
+    "dolicos_bean_healthy",
+    "groundnut_healthy",
+    "groundnut_tikka_leaf_spot",
+    "millet_healthy",
+    "millet_rust",
+    "null",
+    "tomato_early_blight",
+    "tomato_healthy"
+]
+
+# Save and logging configuration (add this)
+save_dir: G:/SUMIT/experment/modelv1  # Specify the directory to save models and logs
